@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оставить заявку</title>
+  <style>
+    area:hover {
+      opacity: 0.5;
+      color: rgb(255, 0, 0);
+    }
+    area:active {
+      opacity: 0.8;
+    }
+  </style>
+
+</head>
+
+<body>
+  <ul>
+    <li><a href="../index.html">Главная</a></li>
+    <li><a href="./about.html">Обо мне</a></li>
+    <li><a href="#">Оставить заявку</a></li>
+  </ul>
+  <h1>Оставить заявку</h1>
+  <form>
+    <label for="name">Ваше имя:</label><br>
+    <input type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
+
+    <label for="email">Почтовый ящик:</label><br>
+    <input required type="email" id="email" name="email" placeholder="Введите адрес почты"><br><br>
+
+    <input required type="submit" value="Отправить">
+    <input required type="reset" value="Стереть форму"><br>
+  </form>
+
+  <p>
+    <img src="../img/map3.gif" width="322" height="46" usemap="#map" alt="Навигация">
+    <map name="map">
+      <area alt="Обо мне" title="Обо мне" href="./about.html" coords="119,31,110,7,120,1,193,0,202,6,212,33" shape="poly">
+      <area alt="Главная" title="Главная" href="../index.html" coords="202,3,217,0,287,2,295,9,302,32,211,30" shape="poly">
+    </map>
+  </p>
+
+  <table border="1">
+    <tbody>
+      <tr>
+        <th>Заголовок 1</th>
+        <th>Заголовок 2</th>
+        <th>Заголовок 3</th>
+      </tr>
+      <tr>
+        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, vitae!</td>
+        <td>Lorem ipsum dolor sit.</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
