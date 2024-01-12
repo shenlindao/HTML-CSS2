@@ -4,28 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
   <title>Оставить заявку</title>
 </head>
 
 <body>
   <ul>
-    <li><a href="../index.html">Главная</a></li>
-    <li><a href="./about.html">Обо мне</a></li>
-    <li><a href="#">Оставить заявку</a></li>
+    <li><a class="menu_link" href="../index.html">Главная</a></li>
+    <li><a class="menu_link" href="./about.html">Обо мне</a></li>
+    <li><a class="menu_link" href="#">Оставить заявку</a></li>
   </ul>
-  <h1>Оставить заявку</h1>
+  <h1 class="h1_style">Оставить заявку</h1>
   <form>
     <label for="name">Ваше имя:</label><br>
-    <input type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
+    <input class="input_style" type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
 
     <label for="email">Почтовый ящик:</label><br>
-    <input required type="email" id="email" name="email" placeholder="Введите адрес почты"><br><br>
+    <input class="input_style" required type="email" id="email" name="email" placeholder="Введите адрес почты"><br><br>
 
-    <input required type="submit" value="Отправить">
-    <input required type="reset" value="Стереть форму"><br>
+    <input class="button" required type="submit" value="Отправить">
+    <input class="button" required type="reset" value="Стереть форму"><br>
   </form>
 
-  <p>
+  <p class="paragraph">
     <img src="../img/map3.gif" width="322" height="46" usemap="#map" alt="Навигация">
     <map name="map">
       <area alt="Обо мне" title="Обо мне" href="./about.html" coords="119,31,110,7,120,1,193,0,202,6,212,33" shape="poly">
